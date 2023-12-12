@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Experience from './components/experience';
 
@@ -10,7 +9,7 @@ function App() {
           My website is under construction.
         </p>
         <Experience
-            title="Software Developer"
+            title="AI Engineer"
             responsibilities={['Developing new features', 'Bug fixing', 'Code review']}
             skills={['JavaScript', 'React', 'Node.js']}
         />
