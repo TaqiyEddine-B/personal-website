@@ -1,18 +1,29 @@
+import logo from './logo.svg';
 import './App.css';
 import Experience from './components/experience';
 
+
+class MyExperience {
+  constructor(title, missions, skills) {
+    this.title = title;
+    this.missions = missions;
+    this.skills = skills;
+  }
+}
 function App() {
+  const missions = ["Do sth", "Do sth else", "Do nothing"];
+  const experience = new MyExperience("Experience", missions, ["Skill","Skill2"]);
+
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          My website is under construction.
+         Taqiy Eddine BOUKLOUHA
         </p>
-        <Experience
-            title="AI Engineer"
-            responsibilities={['Developing new features', 'Bug fixing', 'Code review']}
-            skills={['JavaScript', 'React', 'Node.js']}
-        />
+        <p> AI Developer </p>
+
+        <Experience experience={experience} />
+
       </header>
     </div>
   );

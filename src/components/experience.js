@@ -1,21 +1,22 @@
 import React from 'react';
 
-const Experience = ({ title, responsibilities, skills }) => {
+const Experience = ({ experience }) => {
     return (
         <div>
-            <h2>{title}</h2>
-            <h3>Responsibilities:</h3>
+            <h1>{experience.title}</h1>
             <ul>
-                {responsibilities.map((responsibility, index) => (
-                    <li key={index}>{responsibility}</li>
+                {experience.missions.map((mission, index) => (
+                    <li key={index}>{mission}</li>
                 ))}
             </ul>
-            <h3>Skills:</h3>
+
+            <h1>Skills</h1>
             <ul>
-                {skills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
+                {experience.skills.map((skills, index) => (
+                    <li key={index}>{skills}</li>
                 ))}
             </ul>
+
         </div>
     );
 };
