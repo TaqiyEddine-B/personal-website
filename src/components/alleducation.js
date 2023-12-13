@@ -1,15 +1,13 @@
 import React from "react";
-import {education} from "../portfolio";
-
+import {educations} from "../portfolio";
+import Education from './education';
 const MyAllEducation = () => {
     return (
-        <div>
+        <div >
             <h1>Education</h1>
-            {education.data.map(education => (
-                <div key={education.title}>
-                    <p>{education.title}</p>
-                    <p>{education.university}</p>
-                </div>
+
+            {educations.data.map(education => (
+                <Education education={education} />
             ))}
         </div>
     );

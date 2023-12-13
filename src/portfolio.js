@@ -1,5 +1,5 @@
 
-const education = {
+const educations = {
     data: [
     {
         'title': 'Master of Science in Artificial Intelligence',
@@ -51,4 +51,4 @@ const work_experiences={
 ]
 };
 
-export {work_experiences, education};
+export {work_experiences, educations};
