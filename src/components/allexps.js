@@ -1,7 +1,5 @@
 import React from "react";
-
 import {work_experiences} from "../portfolio";
-
 import Experience from './experience';
 
 const MyAllExps = () => {
@@ -9,7 +7,7 @@ const MyAllExps = () => {
         <div>
             <h1>Experiences</h1>
             {work_experiences.data.map(experience => (
-                <p>{experience.title}</p>
+                <Experience experience={experience} />
             ))}
         </div>
     );

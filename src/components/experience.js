@@ -1,22 +1,22 @@
 import React from 'react';
+import "../styles/global.css";
 
 const Experience = ({ experience }) => {
     return (
-        <div>
-            <h1>{experience.title}</h1>
+        <div className="card">
+            <p className='title'>{experience.title}</p>
+            <hr className="divider" />
             <ul>
                 {experience.missions.map((mission, index) => (
                     <li key={index}>{mission}</li>
                 ))}
             </ul>
 
-            <h1>Skills</h1>
-            <ul>
-                {experience.skills.map((skills, index) => (
-                    <li key={index}>{skills}</li>
-                ))}
-            </ul>
 
+            <hr className="divider" />
+            <ul className='skills'>
+                {experience.skills.join(" / ")}
+            </ul>
         </div>
     );
 };

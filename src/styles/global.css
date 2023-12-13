@@ -1,0 +1,31 @@
+.card {
+    border: 2px solid #1eb1de;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 90px;
+    background-color: #25323b;
+}
+
+.card li {
+    text-align: left;
+    margin-inline-start: 100px;
+    font-size: 80px;
+}
+.card .title {
+    text-align: center;
+    font-size: 90px;
+    font-style: oblique;
+    color: #ffffff;
+}
+.card .skills {
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.divider {
+    border-bottom: 1px solid #ffffff;
+    margin-inline-start: 400px;
+    margin-inline-end: 400px;
+}
