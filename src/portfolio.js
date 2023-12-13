@@ -1,3 +1,19 @@
+
+const education = {
+    data: [
+    {
+        'title': 'Master of Science in Artificial Intelligence',
+        'university': 'University of Toulouse, France',
+        'duration': '2019 -- 2021',
+    },
+    {
+        'title': 'Master in Software Engineering',
+        'university': 'University of Constantine, Algeria',
+        'duration': '2019 -- 2021',
+    }
+]
+};
+
 const work_experiences={
     data: [
     {
@@ -35,4 +51,4 @@ const work_experiences={
 ]
 };
 
-export {work_experiences};
+export {work_experiences, education};

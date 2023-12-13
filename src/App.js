@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MyAllExps from './components/allexps';
-
+import MyAllEducation from './components/alleducation';
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
         </p>
         <p> AI Developer @SolutionData Group | Toulouse, France</p>
         <MyAllExps />
+        <MyAllEducation/>
       </header>
     </div>
   );
