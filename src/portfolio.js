@@ -18,6 +18,10 @@ const work_experiences={
     data: [
     {
         title: "Artificial Intelligence Developer",
+        company: "SolutionData Group",
+        duration: "08/2021 – Present",
+        location: "Toulouse, France",
+        category: "CDI",
         missions: [
             "Creating an ML-based platform for analysing and extracting valuable insights from data.",
             "Developing Python backend components.",
@@ -27,26 +31,31 @@ const work_experiences={
     },
     {
         title: "Deep Learning intern",
+        company: "Diota",
+        duration: "06/2020 – 12/2020",
+        location: "Toulouse, France",
+        category: "Internship",
         missions: [
             "Establish state of the art of industrial commercial solutions based on Deep Learning for conformity control.",
             "Evaluate an OCR Deep Learning commercial solution on Diota images.",
             "Implement Siamese Neural Networks on public datasets : MNIST \& CIFAR10",
-        "Create similarity dataset of based on real industrial images of Diota.",
-    "Implement three levels of similarity estimation on Diota Dataset."],
+            "Create similarity dataset of based on real industrial images of Diota.",
+            "Implement three levels of similarity estimation on Diota Dataset."],
         skills: ["Deep Learning","TensorFlow","Python","Matplotlib"]
     },
     {
-        "title": "Textual analysis for speaker recognition",
-        "duration": "10/2019 -- 03/2020",
-        "category": "Supervised project",
-        "location": "IRIT, Toulouse, France",
-        "missions": [
+        title: "Textual analysis for speaker recognition",
+        company: "IRIT",
+        duration: "10/2019 – 03/2020",
+        category: "Supervised project",
+        location: "Toulouse, France",
+        missions: [
             "Clean the textual data of the AMI corpus.",
             "Perform 'Topic modeling' of the cleaned dataset using LDA.",
             "Classify the text of the cleaned dataset.",
             "Extract named entities using spaCy."
         ],
-        "skills": ["Python", "NLTK", "Scikit-learn", "spaCy"]
+        skills: ["Python", "NLTK", "Scikit-learn", "spaCy"]
     }
 ]
 };
