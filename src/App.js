@@ -11,10 +11,8 @@ function App() {
         <p>
          Taqiy Eddine BOUKLOUHA
         </p>
-        <p> AI Developer @SolutionData Group | Toulouse (France) </p>
-
+        <p> AI Developer @SolutionData Group | Toulouse, France</p>
         <MyAllExps />
-
       </header>
     </div>
   );
