@@ -1,0 +1,17 @@
+import React from "react";
+
+import {work_experiences} from "../portfolio";
+
+import Experience from './experience';
+
+const MyAllExps = () => {
+    return (
+        <div>
+            <h1>Experiences</h1>
+            {work_experiences.data.map(experience => (
+                <p>{experience.title}</p>
+            ))}
+        </div>
+    );
+}
+export default MyAllExps;

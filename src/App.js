@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Experience from './components/experience';
-
+import MyAllExps from './components/allexps';
 
 class MyExperience {
   constructor(title, missions, skills) {
@@ -11,18 +10,19 @@ class MyExperience {
   }
 }
 function App() {
-  const missions = ["Do sth", "Do sth else", "Do nothing"];
+  const missions = ["Do sth", "Do sth else", "Do nothing :)"];
   const experience = new MyExperience("Experience", missions, ["Skill","Skill2"]);
 
   return (
     <div className="App">
+      <p> Welcome to my portfolio!</p>
       <header className="App-header">
         <p>
          Taqiy Eddine BOUKLOUHA
         </p>
         <p> AI Developer </p>
 
-        <Experience experience={experience} />
+        <MyAllExps />
 
       </header>
     </div>
