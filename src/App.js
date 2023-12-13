@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import MyAllExps from './components/allexps';
-import MyAllEducation from './components/alleducation';
+import MyAllExps from './sections/allexps';
+import MyAllEducation from './sections/alleducation';
+import MyAllPersonalProjects from './sections/allpersonalprojects';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <p> AI Developer @SolutionData Group | Toulouse, France</p>
         <MyAllExps />
         <MyAllEducation/>
+        <MyAllPersonalProjects/>
       </header>
     </div>
   );

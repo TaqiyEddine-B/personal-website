@@ -1,6 +1,6 @@
 import React from "react";
 import {educations} from "../portfolio";
-import Education from './education';
+import Education from '../components/education';
 const MyAllEducation = () => {
     return (
         <div >

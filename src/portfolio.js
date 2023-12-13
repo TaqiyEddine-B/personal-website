@@ -51,4 +51,54 @@ const work_experiences={
 ]
 };
 
-export {work_experiences, educations};
+
+const personal_experiences={
+    data: [
+        {
+            "title": "Build Knowledge Graph Using LLM",
+            "missions": [
+                "Extract graph from article text using langchain and openai API.",
+                "Show the extracted graph using Streamlit."
+            ],
+            "skills": ["LLM", "Langchain", "Streamlit"],
+            "links": {
+                "demo": "https://taqiyeddine-b-buildknowledgegraphllm-main-qcgtql.streamlit.app/",
+                "github": "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM"
+            },
+            "duration": "12/2023 - 12/2023",
+            "description": "Personnel project"
+        },
+        {
+            "title": "Chat with Documents using Langchain and Streamlit",
+            "missions": [
+                "Read a document, divide it into vectors, and save them in the vector databases (chroma and pinecone).",
+                "Query vector databases to extract relevant information."
+            ],
+            "skills": ["LLM", "Langchain", "Streamlit"],
+            "links": {
+                "demo": "https://chatdocumentllm.streamlit.app/",
+                "github": "https://github.com/TaqiyEddine-B/ChatDocumentLLM"
+            },
+            "duration": "12/2023 - Present",
+            "description": "Personnel project"
+        },
+        {
+            "title": "BERT Kick-Starter Project",
+            "missions": [
+                "Get and perform data cleaning on the tweet dataset.",
+                "Train a Naive Bayes Classifier and a fine-tuned BERT model.",
+                "Evaluate the two models and compare the obtained results."
+            ],
+            "skills": ["NLP", "BERT", "PyTorch"],
+            "links": {
+                "github": "https://github.com/TaqiyEddine-B/BERT-kick-starter-project"
+            },
+            "duration": "04/2020 - 04/2020",
+            "description": "Personnel project"
+        }
+
+
+    ]
+};
+
+export {work_experiences, educations,personal_experiences};

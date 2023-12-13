@@ -1,6 +1,6 @@
 import React from "react";
 import {work_experiences} from "../portfolio";
-import Experience from './experience';
+import Experience from '../components/experience';
 
 const MyAllExps = () => {
     return (
