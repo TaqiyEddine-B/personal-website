@@ -23,7 +23,23 @@ const Experience = ({ experience }) => {
                     <ul className='skills'>
                         {experience.skills.join(" / ")}
                     </ul>
-                </div>
+
+
+                    {experience.links && (
+                        <div>
+                             <hr className="divider" />
+
+                            {Object.entries(experience.links).map(([label, url], index) => (
+                                <div key={index} style={{ marginStart: '10px' }}>
+                                    <a href={url} target="_blank" rel="noopener noreferrer">
+                                        <button className="beautiful-button">{label}</button>
+                                    </a>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                    </div>
+
             )}
         </div>
     );

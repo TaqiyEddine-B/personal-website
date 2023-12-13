@@ -62,8 +62,8 @@ const personal_experiences={
             ],
             "skills": ["LLM", "Langchain", "Streamlit"],
             "links": {
-                "demo": "https://taqiyeddine-b-buildknowledgegraphllm-main-qcgtql.streamlit.app/",
-                "github": "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM"
+                "Demonstration": "https://taqiyeddine-b-buildknowledgegraphllm-main-qcgtql.streamlit.app/",
+                "GitHub": "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM"
             },
             "duration": "12/2023 - 12/2023",
             "description": "Personnel project"
@@ -76,8 +76,8 @@ const personal_experiences={
             ],
             "skills": ["LLM", "Langchain", "Streamlit"],
             "links": {
-                "demo": "https://chatdocumentllm.streamlit.app/",
-                "github": "https://github.com/TaqiyEddine-B/ChatDocumentLLM"
+                "Demonstration": "https://chatdocumentllm.streamlit.app/",
+                "GitHub": "https://github.com/TaqiyEddine-B/ChatDocumentLLM"
             },
             "duration": "12/2023 - Present",
             "description": "Personnel project"
@@ -91,7 +91,7 @@ const personal_experiences={
             ],
             "skills": ["NLP", "BERT", "PyTorch"],
             "links": {
-                "github": "https://github.com/TaqiyEddine-B/BERT-kick-starter-project"
+                "GitHub": "https://github.com/TaqiyEddine-B/BERT-kick-starter-project"
             },
             "duration": "04/2020 - 04/2020",
             "description": "Personnel project"
