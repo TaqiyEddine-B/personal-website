@@ -5,23 +5,19 @@ import MyAllEducation from './sections/alleducation';
 import MyAllPersonalProjects from './sections/allpersonalprojects';
 import Publication from './sections/allpublications';
 import Header from './components/header';
-
+import Intro from './components/intro';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <header className="App-header">
-      <p> Welcome to my portfolio!</p>
-        <p>
-         Taqiy Eddine BOUKLOUHA
-        </p>
-        <p> AI Developer @SolutionData Group | Toulouse, France</p>
+        <Intro />
         <section id="experiences"> <MyAllExps /> </section>
         <section id="education"> <MyAllEducation /> </section>
         <section id="projects"> <MyAllPersonalProjects /></section>
         <section id='publications'> <Publication/> </section>
-      </header>
+        </header>
     </div>
   );
 }
