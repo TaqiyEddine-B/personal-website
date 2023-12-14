@@ -2,14 +2,16 @@
 const educations = {
     data: [
     {
-        'title': 'Master of Science in Artificial Intelligence',
-        'university': 'University of Toulouse, France',
-        'duration': '2019 -- 2021',
+        'title': 'Artificial Intelligence',
+        'degree': 'Master 2',
+        'university': 'Toulouse III - Paul Sabatier University, Toulouse, France',
+        'duration': '09/2017 - 12/2020',
     },
     {
-        'title': 'Master in Software Engineering',
-        'university': 'University of Constantine, Algeria',
-        'duration': '2019 -- 2021',
+        'title': 'Software Engineering',
+        'degree': 'Master 2',
+        'university': 'Constantine II - Abdelhamid MEHRI University, Constantine, Algeria',
+        'duration': '09/2015 - 07/2017',
     }
 ]
 };

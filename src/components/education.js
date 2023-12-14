@@ -10,7 +10,10 @@ const Education = ({ education }) => {
 
     return (
         <div className="card" onClick={toggleDetails}>
+            <p className='company'> {education.degree}</p>
             <p className='title'>{education.title}</p>
+            <p className='duration'>{education.duration}</p>
+
             {showDetails && (
                 <div>
                     <p >{education.university}</p>

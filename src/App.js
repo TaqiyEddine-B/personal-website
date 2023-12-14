@@ -13,11 +13,14 @@ function App() {
       <Header />
       <header className="App-header">
         <Intro />
+
         <section id="experiences"> <MyAllExps /> </section>
         <section id="education"> <MyAllEducation /> </section>
         <section id="projects"> <MyAllPersonalProjects /></section>
         <section id='publications'> <Publication/> </section>
         </header>
+
+      <hr />
     </div>
   );
 }
