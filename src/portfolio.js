@@ -110,4 +110,27 @@ const personal_experiences={
     ]
 };
 
-export {work_experiences, educations,personal_experiences};
+const publications = {
+    data: [
+        {
+            "title": "HTE at ArAIEval Shared Task: Integrating Content Type Information in Binary Persuasive Technique Detection",
+            "duration": "09/2023 - 10/2023",
+            "additionalInfo": "Shared Task",
+            "links": {
+                "Paper": "https://aclanthology.org/2023.arabicnlp-1.46/",
+                "Pdf": "https://aclanthology.org/2023.arabicnlp-1.46.pdf",
+                "GitHub": "https://github.com/TaqiyEddine-B/Transformers-for-Propaganda-Detection"
+            },
+
+            "missions": [
+                "Fine-tuning the MARBERT model for two tasks: identifying persuasive techniques in text and classifying text types.",
+                "Leveraging the imbalance in the dataset using focal loss",
+                "The system achieved the highest ranking on the leaderboard during testing."
+            ],
+            "skills": ["Transformers", "PyTorch"]
+        }
+
+    ]
+};
+
+export {work_experiences, educations,personal_experiences,publications};
