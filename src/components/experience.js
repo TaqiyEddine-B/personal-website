@@ -10,7 +10,7 @@ const Experience = ({ experience }) => {
 
     return (
         <div className="card" >
-            <p> {experience.company}</p>
+            <p className='company'> {experience.company}</p>
             <p className='title'>{experience.title}</p>
             <p className='duration'>{experience.duration}</p>
             <button className="beautiful-button" onClick={toggleDetails}>{showDetails ? 'Collapse' : 'Show description'}</button>

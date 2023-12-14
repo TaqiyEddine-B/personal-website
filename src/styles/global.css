@@ -1,3 +1,8 @@
+:root {
+    --but-txt-vibrant: #282c34;
+    --but-bg-vibrant: #FFF;
+}
+
 .card {
     border: 2px solid #1eb1de;
     border-radius: 25px;
@@ -10,15 +15,26 @@
 .card li {
     text-align: left;
     margin-inline-start: 100px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .card .title {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-style: oblique;
     color: #ffffff;
 }
 .card .skills {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+.card .duration {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.card .company {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
@@ -43,4 +59,29 @@
 
 .beautiful-button:hover {
     background-color: #00594c;
+}
+
+
+button.vibrant {
+    border: 1px solid var(--but-txt-vibrant);
+    outline: none;
+    color: var(--but-txt-vibrant);
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: var(--but-bg-vibrant);
+    margin-left: 30px;
+}
+button.vibrant:hover {
+    border: 1px solid var(--but-bg-vibrant);
+    color: var(--but-bg-vibrant);
+    background: var(--but-txt-vibrant);
+}
+
+header {
+    background-color: #282c34;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-style: oblique;
 }
