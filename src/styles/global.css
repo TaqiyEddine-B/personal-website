@@ -63,6 +63,35 @@
     background-color: #00594c;
 }
 
+button.vibrant_center {
+    border: 1px solid var(--but-txt-vibrant);
+    outline: none;
+    color: var(--but-txt-vibrant);
+    padding: 8px 12px;
+    background: var(--but-bg-vibrant);
+    height: 40px;
+}
+
+
+button.vibrant_end {
+    border: 1px solid var(--but-txt-vibrant);
+    outline: none;
+    color: var(--but-txt-vibrant);
+    padding: 8px 12px;
+    background: var(--but-bg-vibrant);
+    border-radius: 0px 15px 15px 0px;
+    height: 40px;
+}
+
+button.vibrant_start {
+    border: 1px solid var(--but-txt-vibrant);
+    outline: none;
+    color: var(--but-txt-vibrant);
+    padding: 8px 12px;
+    background: var(--but-bg-vibrant);
+    border-radius: 15px 0px 0px 15px;
+    height: 40px;
+}
 
 button.vibrant {
     border: 1px solid var(--but-txt-vibrant);

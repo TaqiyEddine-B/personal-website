@@ -12,10 +12,10 @@ const Header = () => {
     return (
         <header className='header' >
             <nav>
-            <button onClick={() => scrollToSection('experiences')} className="vibrant">Experiences</button>
-            <button onClick={() => scrollToSection('education')} className="vibrant">Education</button>
-            <button onClick={() => scrollToSection('projects')} className="vibrant">Personnel Projects</button>
-            <button onClick={() => scrollToSection('publications')} className="vibrant">Publications</button>
+            <button onClick={() => scrollToSection('experiences')} className="vibrant_start">Experiences</button>
+            <button onClick={() => scrollToSection('education')} className="vibrant_center">Education</button>
+            <button onClick={() => scrollToSection('projects')} className="vibrant_center">Personnel Projects</button>
+            <button onClick={() => scrollToSection('publications')} className="vibrant_end">Publications</button>
 
             </nav>
         </header>
