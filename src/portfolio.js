@@ -60,7 +60,7 @@ const work_experiences={
         skills: ["Python", "NLTK", "Scikit-learn", "spaCy"]
     }
 ]
-};
+}; 
 
 
 const personal_experiences={
