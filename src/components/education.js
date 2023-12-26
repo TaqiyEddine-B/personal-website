@@ -16,7 +16,7 @@ const Education = ({ education }) => {
 
             {showDetails && (
                 <div>
-                    <p >{education.university}</p>
+                    <p className='duration' >{education.university}</p>
 
                 </div>
             )}
