@@ -3,24 +3,34 @@
     --but-bg-vibrant: #FFF;
 }
 
+
+
+
 .card {
-    border: 2px solid #1eb1de;
+    width: 75%; /* Specify the desired width as a percentage of the screen width */
+    border: 1px solid #1eb1de;
     border-radius: 25px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 90px;
     background-color: #25323b;
 }
-
+@media screen and (max-width: 500px) {
+    .card {
+        width: 50%; /* Set the width to 100% of the screen width */
+    }
+}
 .card li {
     text-align: left;
     margin-inline-start: 100px;
     font-size: 20px;
+
 }
+
 .card .title {
     text-align: center;
     font-size: 25px;
-    font-style: oblique;
+    font-style: normal;
     color: #ffffff;
 }
 .card .skills {
@@ -115,5 +125,20 @@ header {
     text-align: center;
     font-size: 35px;
     color: #ffffff;
-    font-style: oblique;
+    font-style: normal;
+}
+
+.job_title{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+
+.current_location{
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-style: normal;
 }

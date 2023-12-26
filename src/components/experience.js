@@ -13,7 +13,9 @@ const Experience = ({ experience }) => {
             <p className='company'> {experience.company}</p>
             <p className='title'>{experience.title}</p>
             <p className='duration'>{experience.duration}</p>
+
             <button className="beautiful-button" onClick={toggleDetails}>{showDetails ? 'Collapse' : 'Show description'}</button>
+            
             {showDetails && (
                 <div>
                     <hr className="divider" />
