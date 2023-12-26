@@ -32,13 +32,16 @@ const Experience = ({ experience }) => {
                     {experience.links && (
                         <div>
 
+{experience.links && (
+                        <div style={{ display: 'flex', flexDirection: 'row', gap: '5px' }}>
                             {Object.entries(experience.links).map(([label, url], index) => (
-                                <div key={index} style={{ marginStart: '5px' }}>
-                                    <a href={url} target="_blank" rel="noopener noreferrer">
-                                        <button className="beautiful-button">{label}</button>
-                                    </a>
-                                </div>
+                                <a key={index} href={url} target="_blank" rel="noopener noreferrer">
+                                    <button className="beautiful-button">{label}</button>
+                                </a>
                             ))}
+                        </div>
+                    )}
+                    
                         </div>
                     )}
                     </div>

@@ -1,6 +1,7 @@
 :root {
     --but-txt-vibrant: #282c34;
     --but-bg-vibrant: #FFF;
+    --secondary-color: #007b5e;
 }
 
 
@@ -65,8 +66,10 @@
 
 .divider {
     border-bottom: 1px solid #ffffff;
-    margin-inline-start: 400px;
-    margin-inline-end: 400px;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    margin-bottom: 20px;
+    margin-top: 5%;
 }
 
 .beautiful-button {
@@ -160,5 +163,12 @@ header {
     text-align: center;
     font-size: 25px;
     color: #ffffff;
+    font-style: normal;
+}
+
+.section_title{
+    text-align: center;
+    font-size: 45px;
+    color: var(--secondary-color);
     font-style: normal;
 }

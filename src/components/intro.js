@@ -16,6 +16,7 @@ const Intro = () => {
         <a href="https://www.linkedin.com/in/taqiyeddine-b/" target="_blank" className="beautiful-button" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://github.com/taqiyeddine-b" target="_blank" className="beautiful-button" rel="noopener noreferrer">GitHub</a>
 
+        <hr className="divider"></hr>
         </div>
     );
 

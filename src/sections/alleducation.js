@@ -4,7 +4,7 @@ import Education from '../components/education';
 const MyAllEducation = () => {
     return (
         <div >
-            <h1>Education</h1>
+            <p className="section_title">Education</p>
             {educations.data.map(education => (
                 <Education education={education} />
             ))}

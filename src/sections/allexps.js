@@ -5,7 +5,7 @@ import Experience from '../components/experience';
 const MyAllExps = () => {
     return (
         <div>
-            <h1>Experiences</h1>
+            <p className="section_title">Experiences</p>
             {work_experiences.data.map(experience => (
                 <Experience experience={experience} />
             ))}
