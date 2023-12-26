@@ -15,16 +15,15 @@ const Experience = ({ experience }) => {
             <p className='duration'>{experience.duration}</p>
 
             <button className="beautiful-button" onClick={toggleDetails}>{showDetails ? 'Collapse' : 'Show description'}</button>
-            
+
             {showDetails && (
-                <div>
-                    <hr className="divider" />
-                    <ul>
+                <div >
+                    <ul >
                         {experience.missions.map((mission, index) => (
-                            <li key={index}>{mission}</li>
+                            <li className='missions' key={index}>{mission}</li>
                         ))}
                     </ul>
-                    <hr className="divider" />
+
                     <ul className='skills'>
                         {experience.skills.join(" / ")}
                     </ul>
@@ -32,10 +31,9 @@ const Experience = ({ experience }) => {
 
                     {experience.links && (
                         <div>
-                             <hr className="divider" />
 
                             {Object.entries(experience.links).map(([label, url], index) => (
-                                <div key={index} style={{ marginStart: '10px' }}>
+                                <div key={index} style={{ marginStart: '5px' }}>
                                     <a href={url} target="_blank" rel="noopener noreferrer">
                                         <button className="beautiful-button">{label}</button>
                                     </a>
