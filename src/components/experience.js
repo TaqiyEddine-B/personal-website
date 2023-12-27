@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import "../styles/global.css";
 
-const Experience = ({ experience }) => {
-    const [showDetails, setShowDetails] = useState(false);
+const Experience = ({ experience,defaultValue }) => {
+    const [showDetails, setShowDetails] = useState(defaultValue);
 
     const toggleDetails = () => {
         setShowDetails(!showDetails);
@@ -41,7 +41,7 @@ const Experience = ({ experience }) => {
                             ))}
                         </div>
                     )}
-                    
+
                         </div>
                     )}
                     </div>

@@ -13,9 +13,7 @@ function App() {
       <Header />
 
       <header className="App-header">
-
-      <Intro />
-      <section id="experiences"> <MyAllExps /> </section>
+        <Intro />
 
         <section id="experiences"> <MyAllExps /> </section>
         <section id="education"> <MyAllEducation /> </section>
