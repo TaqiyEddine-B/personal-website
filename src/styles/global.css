@@ -114,6 +114,7 @@ button.vibrant_end {
     background: var(--but-bg-vibrant);
     border-radius: 0px 15px 15px 0px;
     height: 40px;
+    width: max-content;
 }
 
 button.vibrant_start {
@@ -122,8 +123,8 @@ button.vibrant_start {
     color: var(--but-txt-vibrant);
     padding: 8px 12px;
     background: var(--but-bg-vibrant);
-    border-radius: 15px 0px 0px 15px;
     height: 40px;
+    width: max-content;
 }
 
 button.vibrant {
