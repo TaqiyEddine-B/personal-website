@@ -4,13 +4,13 @@ import MyAllExps from './sections/allexps';
 import MyAllEducation from './sections/alleducation';
 import MyAllPersonalProjects from './sections/allpersonalprojects';
 import Publication from './sections/allpublications';
-import Header from './components/header';
 import Intro from './components/intro';
-
+import ButtonContainer from './components/header_new';
 function App() {
   return (
     <div className="App">
-      <Header />
+
+      <ButtonContainer />
 
       <header className="App-header">
         <Intro />
