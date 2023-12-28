@@ -40,7 +40,7 @@ const ButtonWithBorderRadius = ({ borderRadius,section,children }) => {
     <button
       onClick={() => scrollToSection(section)}
       className="vibrant_start"
-      style={{ borderRadius: borderRadiusStyle ,margin:marginStyle}}
+      style={{ borderRadius: borderRadiusStyle ,margin:marginStyle,width:'150px'}}
     >
       {children}
     </button>
