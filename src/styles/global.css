@@ -180,34 +180,12 @@ header {
 
 
 
-
-
-
-
-
-
-
-.job_title{
+.intro{
     text-align: center;
-    font-size: 25px;
-    color: #bababa;
-    font-style: normal;
-}
-
-
-.current_location{
-    text-align: center;
-    font-size: 20px;
     color: #ffffff;
     font-style: normal;
 }
 
-.description{
-    text-align: center;
-    font-size: 25px;
-    color: #ffffff;
-    font-style: normal;
-}
 
 .section_title{
     text-align: center;
