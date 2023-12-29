@@ -1,4 +1,5 @@
 import React, { useState} from "react";
+import IconHolder from "./icon_holder";
 
 const Intro = () => {
     const greenTextStyle = {
@@ -13,11 +14,25 @@ const Intro = () => {
         <p className="intro" style={{fontSize:isMobile ? '18px' :'22px'}}> Artificial Intelligence Developer</p>
         <p className="intro" style={{fontSize:isMobile ? '18px' :'22px'}}> Toulouse | France </p>
 
-        <p className="intro" style={{fontSize:isMobile ? '18px' :'24px'}}> Graduated in AI and software engineering, with enriching experience, my passion lies in the fields of Data Science,AI, and Machine/Deep Learning.<br></br>
+        <p className="intro" style={{fontSize:isMobile ? '17px' :'24px'}}> Graduated in AI and software engineering, with enriching experience, my passion lies in the fields of Data Science,AI, and Machine/Deep Learning.
+        <br></br><br></br>
         Currently seeking full-time opportunities in these domains. </p>
 
-        <a href="https://www.linkedin.com/in/taqiyeddine-b/" target="_blank" className="beautiful-button" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/taqiyeddine-b" target="_blank" className="beautiful-button" rel="noopener noreferrer">GitHub</a>
+
+
+
+        <div style={{
+            display: 'flex',
+            flexDirection:"row",
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '30px',
+             }} >
+        <IconHolder icon="linkedin" />
+
+        <IconHolder icon="github" />
+        </div>
+
 
         <hr className="divider"></hr>
         </div>

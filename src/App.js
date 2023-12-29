@@ -20,9 +20,19 @@ function App() {
         <section id="projects"> <MyAllPersonalProjects /></section>
         <section id='publications'> <Publication/> </section>
 
+        <div style={{fontSize:'14px'}}>
+
+        <a target="_blank" href="https://icons8.com/icon/98960/linkedin">LinkedIn </a> & <a target="_blank" href="https://icons8.com/icon/12599/github">GitHub </a>
+        icônes par <a target="_blank" href="https://icons8.com">Icons8</a>
+
+
+        </div>
+
+
         </header>
 
       <hr />
+
     </div>
   );
 }
