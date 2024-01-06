@@ -10,7 +10,7 @@
 .card {
     width: 800px; /* Specify the desired width as a percentage of the screen width */
     border: 1px solid #1eb1de;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 50px;
@@ -41,19 +41,19 @@
 .card .title {
     text-align: center;
     font-size: 25px;
-    font-style: normal;
+    font-style: bold;
     color: #ffffff;
 }
 
 .card .duration {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
 }
 
 .card .company {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
 }
 
@@ -78,6 +78,7 @@
     margin-bottom: 20px;
     margin-top: 40px;
 }
+
 
 .beautiful-button {
     padding: 10px 20px;
