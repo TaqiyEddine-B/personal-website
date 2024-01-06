@@ -73,7 +73,7 @@ const personal_experiences={
             ],
             "skills": ["LLM", "Langchain", "Streamlit"],
             "links": {
-                "Demonstration": "https://taqiyeddine-b-buildknowledgegraphllm-main-qcgtql.streamlit.app/",
+                "Demonstration": "https://buildknowledgegraphllm.streamlit.app/",
                 "GitHub": "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM"
             },
             "duration": "12/2023 - Present",
