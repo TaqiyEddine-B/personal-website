@@ -60,7 +60,7 @@ const work_experiences={
         skills: ["Python", "NLTK", "Scikit-learn", "spaCy"]
     }
 ]
-}; 
+};
 
 
 const personal_experiences={
@@ -76,16 +76,16 @@ const personal_experiences={
                 "Demonstration": "https://taqiyeddine-b-buildknowledgegraphllm-main-qcgtql.streamlit.app/",
                 "GitHub": "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM"
             },
-            "duration": "12/2023 - 12/2023",
+            "duration": "12/2023 - Present",
             "description": "Personnel project"
         },
         {
-            "title": "Chat with Documents using Langchain and Streamlit",
+            "title": "Chat with Documents using LlamaIndex and Streamlit",
             "missions": [
-                "Read a document, divide it into vectors, and save them in the vector databases (chroma and pinecone).",
+                "Read a document, divide it into vectors, and save them in the vector databases.",
                 "Query vector databases to extract relevant information."
             ],
-            "skills": ["LLM", "Langchain", "Streamlit"],
+            "skills": ["LLM", "LlamaIndex", "Streamlit"],
             "links": {
                 "Demonstration": "https://chatdocumentllm.streamlit.app/",
                 "GitHub": "https://github.com/TaqiyEddine-B/ChatDocumentLLM"
