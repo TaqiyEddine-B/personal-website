@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.aad96d07.css",
+    "main.css": "/personal-website/static/css/main.e0fac89d.css",
     "main.js": "/personal-website/static/js/main.871d65e4.js",
     "static/js/787.0f15b36d.chunk.js": "/personal-website/static/js/787.0f15b36d.chunk.js",
     "static/media/irit_logo.png": "/personal-website/static/media/irit_logo.ee508f7d93052f62d4b0.png",
@@ -8,12 +8,12 @@
     "static/media/icons8-github-48.svg": "/personal-website/static/media/icons8-github-48.92b2358adff5e070313b75a397ff3685.svg",
     "index.html": "/personal-website/index.html",
     "static/media/icons8-linkedin.svg": "/personal-website/static/media/icons8-linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
-    "main.aad96d07.css.map": "/personal-website/static/css/main.aad96d07.css.map",
+    "main.e0fac89d.css.map": "/personal-website/static/css/main.e0fac89d.css.map",
     "main.871d65e4.js.map": "/personal-website/static/js/main.871d65e4.js.map",
     "787.0f15b36d.chunk.js.map": "/personal-website/static/js/787.0f15b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aad96d07.css",
+    "static/css/main.e0fac89d.css",
     "static/js/main.871d65e4.js"
   ]
 }
