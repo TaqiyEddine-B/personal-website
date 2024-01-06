@@ -11,9 +11,15 @@ const Experience = ({ experience,defaultValue }) => {
 
     return (
         <div className="card" >
-            <p className='company'> {experience.company}</p>
-            <IconHolder icon={experience.id} />
+
             <p className='title'>{experience.title}</p>
+
+            <div style={{ display: 'flex', flexDirection: 'row', gap: '5px', justifyContent: 'center', alignItems: 'center' }}>
+                <IconHolder icon={experience.id} />
+                <p className='company'> {experience.company}</p>
+            </div>
+
+
             <p className='duration'>{experience.duration}</p>
 
             <button className="beautiful-button" onClick={toggleDetails}>{showDetails ? 'Collapse' : 'Show description'}</button>
