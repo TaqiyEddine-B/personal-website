@@ -9,3 +9,4 @@ export default {
 
 export const MainC = () => <Experience experience={work_experiences.data[0]} defaultValue={false} />;
 export const ShowDescription = () => <Experience experience={work_experiences.data[0]} defaultValue={true} />;
+export const Diota = () => <Experience experience={work_experiences.data[1]} defaultValue={false} />;

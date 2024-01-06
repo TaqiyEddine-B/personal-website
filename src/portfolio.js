@@ -19,6 +19,7 @@ const educations = {
 const work_experiences={
     data: [
     {
+        id: "sdg_ai",
         title: "Artificial Intelligence Developer",
         company: "SolutionData Group",
         duration: "08/2021 – Present",
@@ -32,6 +33,7 @@ const work_experiences={
         skills: ["Python","Machine Learning","LLM","NLP","Flask","Docker","Scrum"]
     },
     {
+        id: "diota_dl_intern",
         title: "Deep Learning intern",
         company: "Diota",
         duration: "06/2020 – 12/2020",
@@ -46,6 +48,7 @@ const work_experiences={
         skills: ["Deep Learning","TensorFlow","Python","Matplotlib"]
     },
     {
+        id: "irit_ami",
         title: "Textual analysis for speaker recognition",
         company: "IRIT",
         duration: "10/2019 – 03/2020",

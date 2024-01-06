@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../styles/global.css";
+import IconHolder from "./icon_holder";
 
 const Experience = ({ experience,defaultValue }) => {
     const [showDetails, setShowDetails] = useState(defaultValue);
@@ -11,6 +12,7 @@ const Experience = ({ experience,defaultValue }) => {
     return (
         <div className="card" >
             <p className='company'> {experience.company}</p>
+            <IconHolder icon={experience.id} />
             <p className='title'>{experience.title}</p>
             <p className='duration'>{experience.duration}</p>
 
