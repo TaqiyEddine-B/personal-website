@@ -29,7 +29,7 @@ const IconHolder = ({ icon }) => {
             iconLink = null;
             iconSize = { width: '48px', height: '48px', borderRadius: '20%' };
             break;
-        case 'irit_ami':
+        case 'irit_ami': case 'irit_audio':
         iconSource = IritLogo;
         iconLink = null;
         iconSize = { width: '48px', height: '48px', borderRadius: '20%' };

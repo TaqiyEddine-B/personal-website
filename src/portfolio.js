@@ -61,6 +61,21 @@ const work_experiences={
             "Extract named entities using spaCy."
         ],
         skills: ["Python", "NLTK", "Scikit-learn", "spaCy"]
+    },
+    {
+        "id": "irit_audio",
+        "title": "Audio classification using Deep Learning",
+        "company": "IRIT",
+        "duration": "01/2018 – 04/2018",
+        "location": "Toulouse, France",
+        "category": "Supervised project",
+        "missions": [
+            "Prepare 'Common Voice' dataset",
+            "Preprocess the data",
+            "Propose and validate a CNN model",
+            "Evaluate the results"
+        ],
+        "skills": ["CNN", "Pandas", "Keras", "Python"]
     }
 ]
 };
