@@ -22,7 +22,6 @@ const ButtonContainer = () => {
         display: "flex",
         flexDirection: isMobile ? "column" : "row",
         padding: "20px",
-        background: "#282c34",
         justifyContent: "center",
         alignItems: "center",
       }}

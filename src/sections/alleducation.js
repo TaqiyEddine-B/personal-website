@@ -3,7 +3,7 @@ import {educations} from "../portfolio";
 import Education from '../components/education';
 const MyAllEducation = () => {
     return (
-        <div >
+        <div className="section">
             <p className="section_title">Education</p>
             {educations.data.map(education => (
                 <Education education={education} />

@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 import MyAllExps from './sections/allexps';
 import MyAllEducation from './sections/alleducation';
 import MyAllPersonalProjects from './sections/allpersonalprojects';
@@ -10,9 +10,8 @@ function App() {
   return (
     <div className="App">
 
-      <ButtonContainer />
+        <ButtonContainer />
 
-      <header className="App-header">
         <Intro />
 
         <section id="experiences"> <MyAllExps /> </section>
@@ -24,12 +23,7 @@ function App() {
 
         <a target="_blank" href="https://icons8.com/icon/98960/linkedin">LinkedIn </a> & <a target="_blank" href="https://icons8.com/icon/12599/github">GitHub </a>
         icônes par <a target="_blank" href="https://icons8.com">Icons8</a>
-
-
         </div>
-
-
-        </header>
 
       <hr />
 

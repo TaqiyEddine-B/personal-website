@@ -9,9 +9,8 @@
 
 .card {
     width: 800px; /* Specify the desired width as a percentage of the screen width */
-    border: 1px solid #1eb1de;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 50px;
     background-color: #25323b;
@@ -65,7 +64,7 @@
 }
 
 .card .skills {
-    text-align: center;
+    text-align: start;
     font-style: italic;
     font-size: 16px;
     color: #ffffff;
@@ -86,11 +85,10 @@
     color: white;
     background-color: #007b5e;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 20px;
-
 }
 
 .beautiful-button:hover {
@@ -188,13 +186,6 @@ header {
 }
 
 
-.section_title{
-    text-align: center;
-    font-size: 45px;
-    color: var(--secondary-color);
-    font-style: normal;
-}
-
 
 @media screen and (max-width: 1024px) {
     body p {
@@ -222,4 +213,33 @@ header {
     .description{
         font-size: 18px;
     }
+}
+
+
+
+.separator {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+    border: 0.5px solid #ffffff;
+    display: inline-flex;
+    padding: 0px 8px 0px 8px;
+    border-radius: 10px;
+    line-height: 0.5; /* Adjust this value as needed */
+
+}
+
+
+.section_title{
+    text-align: center;
+    font-size: 45px;
+    color: var(--secondary-color);
+    font-style: normal;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
