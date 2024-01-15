@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './styles/App.css';
+import './styles/global.css';
 import MyAllExps from './sections/allexps';
 import MyAllEducation from './sections/alleducation';
 import MyAllPersonalProjects from './sections/allpersonalprojects';
