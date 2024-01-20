@@ -25,6 +25,7 @@ const work_experiences={
         duration: "08/2021 – Present",
         location: "Toulouse, France",
         category: "CDI",
+        description:"Conceptualizing, developing, and packaging machine learning (ML) and Python-based backend projects",
         missions: [
             "Creating an ML-based platform for analysing and extracting valuable insights from data.",
             "Developing Python backend components.",

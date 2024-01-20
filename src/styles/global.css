@@ -54,7 +54,7 @@
     margin: 50px;
     background-color: var(--card-background-color);
     color: var(--primary-color);
-    border: 0.25px solid var(--secondary-color);
+    border: 0.1px solid var(--secondary-color);
 
 }
 

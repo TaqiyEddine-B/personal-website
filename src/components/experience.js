@@ -47,6 +47,16 @@ const Experience = ({ experience, defaultValue }) => {
 
       {showDetails && (
         <div>
+                        {
+                experience.description && (
+                    <div>
+                        <div className="separator">
+                            <p>Description</p>
+                        </div>
+                        <p>{experience.description}</p>
+                    </div>
+                )
+            }
           <div className="separator">
             <p>Missions</p>
           </div>
