@@ -304,3 +304,8 @@ header {
 .greenTextStyle {
     color: var(--secondary-color);
 }
+
+.experience_description{
+    padding-left: 45px; /* Adjust this value as needed */
+
+}

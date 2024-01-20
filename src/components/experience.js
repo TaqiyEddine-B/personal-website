@@ -13,6 +13,23 @@ const Experience = ({ experience, defaultValue }) => {
     <div className="card">
       <p className="title">{experience.title}</p>
 
+      {experience.company && (
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "5px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <IconHolder icon={experience.id} />
+          <p className="company"> {experience.company}</p>
+        </div>
+      )}
+
+      <p className="duration">{experience.duration}</p>
+
       <div
         style={{
           display: "flex",
@@ -22,41 +39,21 @@ const Experience = ({ experience, defaultValue }) => {
           alignItems: "center",
         }}
       >
-        <IconHolder icon={experience.id} />
-        <p className="company"> {experience.company}</p>
-
-
+        <button className="beautiful-button" onClick={toggleDetails}>
+          {showDetails ? "Collapse" : "Show details"}
+        </button>
       </div>
-
-      <p className="duration">{experience.duration}</p>
-
-      <div style={
-        {
-          display: "flex",
-          flexDirection: "row",
-          gap: "5px",
-          justifyContent: "center",
-          alignItems: "center",
-        }
-      }>
-      <button className="beautiful-button" onClick={toggleDetails}>
-        {showDetails ? "Collapse" : "Show description"}
-      </button>
-      </div>
-
 
       {showDetails && (
         <div>
-                        {
-                experience.description && (
-                    <div>
-                        <div className="separator">
-                            <p>Description</p>
-                        </div>
-                        <p>{experience.description}</p>
-                    </div>
-                )
-            }
+          {experience.description && (
+            <div>
+              <div className="separator">
+                <p>Description</p>
+              </div>
+              <p className="experience_description">{experience.description}</p>
+            </div>
+          )}
           <div className="separator">
             <p>Missions</p>
           </div>
