@@ -280,7 +280,7 @@ header {
     display: inline-flex;
     padding: 0px 8px 0px 8px;
     border-radius: 10px;
-    line-height: 0.5;
+    line-height: 0.1;
     /* Adjust this value as needed */
 
 }
@@ -307,5 +307,7 @@ header {
 
 .experience_description{
     padding-left: 45px; /* Adjust this value as needed */
-
+    font-style: normal;
+    font-size: 18px;
+    color: var(--primary-color);
 }

@@ -31,10 +31,9 @@ const CurrentAnim = () => {
       />
       <p
         style={{
-          fontSize: "20px",
+          fontSize: "22px",
           textAlign: "center",
           color: "#fff",
-          fontWeight: "bold",
           margin: "0px", // Set margin to 0 to remove the space
         }}
       >
