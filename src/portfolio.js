@@ -112,8 +112,7 @@ const personal_experiences = {
         Demonstration: "https://buildknowledgegraphllm.streamlit.app/",
         GitHub: "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM",
       },
-      duration: "12/2023 - Present",
-      description: "Personnel project",
+      duration: "12/2023 - Present"
     },
     {
       title: "Chat with Documents using LlamaIndex and Streamlit",
@@ -126,8 +125,7 @@ const personal_experiences = {
         Demonstration: "https://chatdocumentllm.streamlit.app/",
         GitHub: "https://github.com/TaqiyEddine-B/ChatDocumentLLM",
       },
-      duration: "12/2023 - Present",
-      description: "Personnel project",
+      duration: "12/2023 - Present"
     },
     {
       title: "BERT Kick-Starter Project",
@@ -140,8 +138,7 @@ const personal_experiences = {
       links: {
         GitHub: "https://github.com/TaqiyEddine-B/BERT-kick-starter-project",
       },
-      duration: "04/2020 - 04/2020",
-      description: "Personnel project",
+      duration: "04/2020 - 04/2020"
     },
   ],
 };

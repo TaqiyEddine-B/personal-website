@@ -42,8 +42,7 @@ const IconHolder = ({ icon }) => {
 
     return (
         <div>
-            {iconSource && <a href={iconLink}><img src={iconSource} alt="Icon" style={iconSize} /></a>}
-        </div>
+            {iconSource && <a href={iconLink} target="_blank" rel="noopener noreferrer"><img src={iconSource} alt="Icon" style={iconSize} /></a>}        </div>
     );
 };
 

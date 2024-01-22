@@ -27,7 +27,7 @@ const Intro = () => {
       <p className="intro" style={{ fontSize: isMobile ? "17px" : "24px" }}>
         {" "}
         Graduated in AI and software engineering, with enriching experience, my
-        passion lies in the fields of Data Science,AI, and Machine/Deep
+        passion lies in the fields of Data Science, AI, and Machine/Deep
         Learning.
         <br></br>
       </p>
@@ -40,7 +40,7 @@ const Intro = () => {
           flexDirection: "row",
           justifyContent: "center",
           alignItems: "center",
-          margin: "30px",
+          margin: "0px",
         }}
       >
         <IconHolder icon="linkedin" />
