@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.df13fc78.css",
-    "main.js": "/personal-website/static/js/main.18e0d476.js",
+    "main.css": "/personal-website/static/css/main.e74d6dea.css",
+    "main.js": "/personal-website/static/js/main.d2060c22.js",
     "static/js/787.0f15b36d.chunk.js": "/personal-website/static/js/787.0f15b36d.chunk.js",
     "static/media/irit_logo.png": "/personal-website/static/media/irit_logo.ee508f7d93052f62d4b0.png",
+    "static/media/icons8-github-48.svg": "/personal-website/static/media/icons8-github-48.f19fbcab1d7df3fc699188c95577835b.svg",
     "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/icons8-github-48.svg": "/personal-website/static/media/icons8-github-48.92b2358adff5e070313b75a397ff3685.svg",
     "index.html": "/personal-website/index.html",
     "static/media/icons8-linkedin.svg": "/personal-website/static/media/icons8-linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
-    "main.df13fc78.css.map": "/personal-website/static/css/main.df13fc78.css.map",
-    "main.18e0d476.js.map": "/personal-website/static/js/main.18e0d476.js.map",
+    "main.e74d6dea.css.map": "/personal-website/static/css/main.e74d6dea.css.map",
+    "main.d2060c22.js.map": "/personal-website/static/js/main.d2060c22.js.map",
     "787.0f15b36d.chunk.js.map": "/personal-website/static/js/787.0f15b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df13fc78.css",
-    "static/js/main.18e0d476.js"
+    "static/css/main.e74d6dea.css",
+    "static/js/main.d2060c22.js"
   ]
 }
