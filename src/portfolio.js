@@ -30,6 +30,7 @@ const work_experiences = {
         "Conceptualizing, developing, and packaging machine learning (ML) and Python-based backend projects",
       missions: [
         "Creating an ML-based platform for analysing and extracting valuable insights from data.",
+        "Developing Proof of Concepts (POCs) for experimentation and rapid prototyping.",
         "Developing Python backend components.",
         "Integrating generative AI in different parts of the developed platform.",
         "Promoting the adoption and implementation of the Scrum framework within the team.",
