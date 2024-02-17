@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+
 import "../styles/global.css";
 import IconHolder from "./icon_holder";
 
@@ -80,14 +82,9 @@ const Experience = ({ experience, defaultValue }) => {
                 >
                   {Object.entries(experience.links).map(
                     ([label, url], index) => (
-                      <a
-                        key={index}
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <Link key={index}to={`/blog/${experience.id}`}>
                         <button className="beautiful-button">{label}</button>
-                      </a>
+                      </Link>
                     )
                   )}
                 </div>

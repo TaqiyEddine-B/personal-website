@@ -1,33 +1,27 @@
 import logo from './logo.svg';
 import './styles/global.css';
-import MyAllExps from './sections/allexps';
-import MyAllEducation from './sections/alleducation';
-import MyAllPersonalProjects from './sections/allpersonalprojects';
-import Publication from './sections/allpublications';
-import Intro from './components/intro';
-import ButtonContainer from './components/header_new';
+
+import React from 'react';
+import Home from './components/home';
+import Blog from './components/blog';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
 function App() {
-  return (
-    <div className="App">
-
-        <ButtonContainer />
-
-        <Intro />
-
-        <section id="experiences"> <MyAllExps /> </section>
-        <section id="education"> <MyAllEducation /> </section>
-        <section id="projects"> <MyAllPersonalProjects /></section>
-        <section id='publications'> <Publication/> </section>
-
-        <div style={{fontSize:'14px'}}>
-
-        <a target="_blank" href="https://icons8.com/icon/98960/linkedin">LinkedIn </a> & <a target="_blank" href="https://icons8.com/icon/12599/github">GitHub </a>
-        icônes par <a target="_blank" href="https://icons8.com">Icons8</a>
-        </div>
-
-      <hr />
-
+  const NotFound = () => (
+    <div>
+      <h2>Page not found</h2>
+      <p>The page you're looking for doesn't exist.</p>
     </div>
+  );
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog/:id" element={<Blog />} />
+      </Routes>
+    </Router>
   );
 }
 

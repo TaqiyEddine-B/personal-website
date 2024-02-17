@@ -103,6 +103,7 @@ const work_experiences = {
 const personal_experiences = {
   data: [
     {
+      id: "llm_knowledge_graph",
       title: "Build Knowledge Graph Using LLM",
       missions: [
         "Extract graph from article text using langchain and openai API.",
@@ -112,10 +113,12 @@ const personal_experiences = {
       links: {
         Demonstration: "https://buildknowledgegraphllm.streamlit.app/",
         GitHub: "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM",
+        Blog: "blog/"
       },
       duration: "12/2023 - Present"
     },
     {
+      id: "chat_document_llm",
       title: "Chat with Documents using LlamaIndex and Streamlit",
       missions: [
         "Read a document, divide it into vectors, and save them in the vector databases.",
@@ -129,6 +132,7 @@ const personal_experiences = {
       duration: "12/2023 - Present"
     },
     {
+      id: "bert_kick_starter_project",
       title: "BERT Kick-Starter Project",
       missions: [
         "Get and perform data cleaning on the tweet dataset.",
@@ -168,4 +172,14 @@ const publications = {
   ],
 };
 
-export { work_experiences, educations, personal_experiences, publications };
+const blog = {
+  data:[
+    {
+      id: "llm_knowledge_graph",
+    //  url: "https://raw.githubusercontent.com/TaqiyEddine-B/BuildKnowledgeGraphLLM/main/README.md",
+    url:'https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM/blob/main/README.md'
+    }
+  ]
+}
+
+export { work_experiences, educations, personal_experiences, publications ,blog};
