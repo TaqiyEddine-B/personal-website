@@ -82,7 +82,7 @@ const Experience = ({ experience, defaultValue }) => {
                 >
                   {Object.entries(experience.links).map(
                     ([label, url], index) => (
-                      <Link key={index}to={`/blog/${experience.id}`}>
+                      <Link key={index}to={url}>
                         <button className="beautiful-button">{label}</button>
                       </Link>
                     )

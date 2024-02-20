@@ -113,7 +113,6 @@ const personal_experiences = {
       links: {
         Demonstration: "https://buildknowledgegraphllm.streamlit.app/",
         GitHub: "https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM",
-        Blog: "blog/"
       },
       duration: "12/2023 - Present"
     },
