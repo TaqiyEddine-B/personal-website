@@ -174,11 +174,6 @@ const publications = {
 
 const blog = {
   data:[
-    {
-      id: "llm_knowledge_graph",
-    //  url: "https://raw.githubusercontent.com/TaqiyEddine-B/BuildKnowledgeGraphLLM/main/README.md",
-    url:'https://github.com/TaqiyEddine-B/BuildKnowledgeGraphLLM/blob/main/README.md'
-    }
   ]
 }
 
