@@ -119,12 +119,13 @@ const personal_experiences = {
     },
     {
       id: "chat_document_llm",
-      title: "Chat with Documents using LlamaIndex and Streamlit",
+      title: "Development of a conversational chatbot based in RAG",
+      description :"Develop a conversational chatbot that uses an LLM model to provide users with precise answers from a specified set of documents.",
       missions: [
-        "Read a document, divide it into vectors, and save them in the vector databases.",
-        "Query vector databases to extract relevant information.",
+        "Uses LlamaIndex to load and index data and create a chat engine that will retrieve context from that data to respond to each user query.",
+        "Develop a simple user interface in Streamlit to display user queries as well as model responses.",
       ],
-      skills: ["LLM", "LlamaIndex", "Streamlit"],
+      skills: ["LLM","RAG (Retrieval-Augmented Generation)","LlamaIndex", "Streamlit"],
       links: {
         Demonstration: "https://chatdocumentllm.streamlit.app/",
         GitHub: "https://github.com/TaqiyEddine-B/ChatDocumentLLM",
