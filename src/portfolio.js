@@ -102,6 +102,22 @@ const work_experiences = {
 
 const personal_experiences = {
   data: [
+
+    {
+      id: "llm_interview_questions_generator",
+      title: "Interview Questions Generator With LLM",
+      missions: [
+        "Analyse a CV and a job description to generate relevant interview questions.",
+        "Show the result in Streamlit.",
+      ],
+      skills: ["LLM", "Langchain", "Streamlit"],
+      links: {
+        Demonstration: "https://interviewquestionsgeneratorwithllm.streamlit.app/",
+        GitHub: "https://github.com/TaqiyEddine-B/InterviewQuestionsGeneratorWithLlm",
+      },
+      duration: "03/2024 - Present"
+    },
+
     {
       id: "llm_knowledge_graph",
       title: "Build Knowledge Graph Using LLM",
